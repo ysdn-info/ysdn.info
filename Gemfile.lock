@@ -11,6 +11,7 @@ GEM
     eventmachine (1.2.7)
     ffi (1.15.5)
     forwardable-extended (2.6.0)
+    google-protobuf (3.23.4-arm64-darwin)
     google-protobuf (3.23.4-x86_64-darwin)
     google-protobuf (3.23.4-x86_64-linux)
     http_parser.rb (0.8.0)
@@ -67,9 +68,9 @@ GEM
     webrick (1.8.1)
 
 PLATFORMS
+  arm64-darwin-21
   x86_64-darwin-20
   x86_64-linux
-  arm64-darwin-21
 
 DEPENDENCIES
   http_parser.rb (~> 0.6.0)
