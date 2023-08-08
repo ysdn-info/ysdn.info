@@ -42,8 +42,7 @@ html {
 }
 .content h2 {
   font-size: 1.5em;
-  font-weight: 400;
-  margin: 0 4vw 2rem 4vw;
+  font-weight: 200;
 }
 
 .link {
@@ -77,8 +76,7 @@ html {
 }
 .year-list-item h3 {
   font-size: 1.75em;
-  font-weight: 400;
-  margin: 0 0 1rem;
+  font-weight: 200;
 }
 
 .year-list-final-item {
