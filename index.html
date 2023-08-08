@@ -28,12 +28,12 @@ layout: default
         <ul class="year-list">
             {% for year in site.data._years reversed %}
             {% assign graduates = year[1].graduates %}
-            {% assign archivelink = year[1].archivelink %}
+            {% assign archivepublished = year[1].archivepublished %}
                 {% if graduates %}
                 <li class="year-list-item">
                     <h3><time datetime="{{ year[1].year }}">{{ year[1].year }} </time><sup>({{ year[1].graduates | size }})</sup></h3>
                     <div class="year-list-item-archivelinkcontainer">
-                        {% if archivelink %}
+                        {% if archivepublished == true %}
                         <a href="archives/{{ year[1].year }}" class="link">View Gradshow</a>
                         {% endif %}
                     </div>
