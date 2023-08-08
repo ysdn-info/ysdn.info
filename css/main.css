@@ -85,10 +85,11 @@ html {
   margin-right: 4vw;
 }
 
-.graduate-list {
+.graduate-list, .contributor-list {
   list-style-type: none;
+  margin-bottom: 1rem;
 }
-.graduate-list li {
+.graduate-list li, .contributor-list li {
   margin-bottom: 0.25rem;
 }
 
@@ -98,6 +99,10 @@ sup {
 
 .year-list-item-archivelinkcontainer {
   min-height: 2rem;
+}
+
+.contributor-list {
+  margin: 0 4vw;
 }
 
 ::-webkit-scrollbar {
