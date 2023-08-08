@@ -7,16 +7,17 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ysdn.info" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  ysdn-info
-
-# Build settings
-# collections_dir: _collections
-# collections:
-#   years:
-#     output: true
-#     permalink: /archives/:path/
   
 plugins:
   - jekyll-datapage-generator
+
+# Build settings
+page_gen:
+  - data: _years
+    template: archiveviewer
+    name: year
+    dir: archives
+    filter: archivepublished
 
 # Exclude from processing.
 # The following items will not be processed, by default.

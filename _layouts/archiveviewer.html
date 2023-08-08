@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    {% include head.html %}
+    <script src="/js/ui.js"></script>
+  </head>
+  <body>
+    <div class="archiveviewer-wrapper">
+      <nav>
+        <a class="archiveviewer-link" href="../../">ysdn.info</a>
+      </nav>
+      <div class="replaywebpage-wrapper">
+        <replay-web-page replayBase="/js/" useRuffle="true" deepLink="true" source="{{ page.archivelink }}" url="{{ page.archivestarturl }}"></replay-web-page>
+      </div>
+    </div>
+  </body>
+</html>

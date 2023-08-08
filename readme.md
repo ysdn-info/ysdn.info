@@ -4,6 +4,8 @@
 
 ysdn.info is _not_ currently a webring or link directory for past graduates.
 
+Archived gradshow websites are stored in a Backblaze B2 bucket.  We use [ReplayWebpage](https://github.com/webrecorder/replayweb.page) to embed them into the site.
+
 ## Contributing
 
 Is your name not mentioned or misspelled? Do you have a list of names that isn't yet on the site? Do you have access to past gradshow website files? We'd love to hear from you! Please [open an issue and get in touch!](https://github.com/ysdn-info/ysdn.info/issues/new)

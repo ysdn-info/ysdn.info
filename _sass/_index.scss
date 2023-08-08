@@ -59,7 +59,7 @@
     h3 {
         font-size: 1.75em;
         font-weight: 400;
-        margin: 0 0 2rem;
+        margin: 0 0 1rem;
     }
 }
 
@@ -77,6 +77,10 @@
 
 sup {
      font-size: 0.5em;
+}
+
+.year-list-item-archivelinkcontainer {
+    min-height: 2rem;
 }
 
 ::-webkit-scrollbar {
