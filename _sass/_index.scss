@@ -20,6 +20,7 @@
 
 .content {
     h2 {
+        margin: 2rem 4vw;
         font-size: 1.5em;
         font-weight: 200;
     }
@@ -69,12 +70,12 @@
     list-style-type: none;
 
     li {
-        margin-bottom: 0.5rem;
+        margin-bottom: 0.25rem;
     }
 }
 
 sup {
-     font-size: 0.5em;
+     font-size: 0.75rem;
 }
 
 .year-list-item-archivelinkcontainer {
