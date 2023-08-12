@@ -59,6 +59,7 @@
     h3 {
         font-size: 1.75em;
         font-weight: 200;
+        margin-bottom: 0;
     }
 }
 
@@ -80,7 +81,12 @@ sup {
 }
 
 .year-list-item-archivelinkcontainer {
-    min-height: 2rem;
+    min-height: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 0.25rem;
+    margin-bottom: 0.75rem;
 }
 
 .contributor-list {

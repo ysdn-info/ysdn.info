@@ -29,12 +29,17 @@ layout: default
             {% for year in site.data._years reversed %}
             {% assign graduates = year[1].graduates %}
             {% assign archivepublished = year[1].archivepublished %}
+            {% assign additionallink = year[1].additionallink %}
+            {% assign additionallink = year[1].additionallinktext %}
                 {% if graduates %}
                 <li class="year-list-item">
                     <h3><time datetime="{{ year[1].year }}">{{ year[1].year }} </time><sup>({{ year[1].graduates | size }})</sup></h3>
                     <div class="year-list-item-archivelinkcontainer">
+                        {% if additionallink %}
+                        <a href="{{ year[1].additionallink }}" class="link">{{ year[1].additionallinktext }}</a>
+                        {% endif %}
                         {% if archivepublished == true %}
-                        <a href="archives/{{ year[1].year }}" class="link">View Gradshow</a>
+                        <a href="archives/{{ year[1].year }}" class="link">View Grad Show</a>
                         {% endif %}
                     </div>
                     <ul class="graduate-list">
