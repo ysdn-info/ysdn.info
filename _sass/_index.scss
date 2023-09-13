@@ -65,6 +65,10 @@
 
 .year-list-final-item {
     margin-right: 4vw;
+
+    p {
+        margin-top: 3.75rem;
+    }
 }
 
 .graduate-list, .contributor-list {
@@ -87,6 +91,14 @@ sup {
     justify-content: flex-end;
     gap: 0.25rem;
     margin-bottom: 0.75rem;
+
+    a {
+        height: 1.125rem;
+    }
+}
+
+.year-list-item-archivelinkspacer {
+    height: 1.125rem;
 }
 
 .contributor-list {

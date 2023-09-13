@@ -37,6 +37,9 @@ layout: default
                     <div class="year-list-item-archivelinkcontainer">
                         {% if additionallink %}
                         <a href="{{ year[1].additionallink }}" class="link">{{ year[1].additionallinktext }}</a>
+                        {% if archivepublished == false %}
+                        <div class="year-list-item-archivelinkspacer"></div>
+                        {% endif %}
                         {% endif %}
                         {% if archivepublished == true %}
                         <a href="archives/{{ year[1].year }}" class="link">View Grad Show</a>
